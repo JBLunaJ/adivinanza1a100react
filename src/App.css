@@ -1,0 +1,29 @@
+/* Reset general para asegurar consistencia */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Arial", sans-serif;
+  background: #f5f7fa;
+}
+
+button {
+  cursor: pointer;
+}
+
+.Toastify__toast {
+  font-size: 1rem;
+}
+
+.Toastify__toast--success {
+  background-color: #4CAF50;
+}
+
+.Toastify__toast--error {
+  background-color: #FF7043;
+}
